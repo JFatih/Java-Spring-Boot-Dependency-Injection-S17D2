@@ -20,7 +20,7 @@ public class DeveloperController {
 
     public Map<Integer, Developer> developers;
 
-    Taxable taxeble;
+    private Taxable taxeble;
 
     @PostConstruct
     public void init(){
